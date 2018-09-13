@@ -1,0 +1,24 @@
+/*body*/
+body{
+  background:#633f46;
+}
+/*navbar*/
+#navMargin{
+  margin-left:60px;
+}
+a{
+  font-size: 20px;
+}
+/*video*/
+.clip{
+    margin-top: 20px;
+}
+.clip2{
+    margin-top: 20px;
+}
+.clip3{
+    margin-top: 20px;
+}
+.clip4{
+    margin-top: 20px;
+}

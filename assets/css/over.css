@@ -1,0 +1,46 @@
+/* ancre de la nav et margin des ancre*/
+a{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+#navMargin{
+    margin-left:20px;
+}
+/*couleur du corps de la page*/
+body{
+    background-image: url(https://images3.alphacoders.com/702/thumb-1920-702620.png)
+}
+/*espace connection*/
+#marginInscript{
+    margin-left:20px;
+}
+/*accordion*/
+li{
+    color: white;
+}
+/*chat et le stream*/
+#streamChat{
+    margin-top: 40px;
+}
+.chat{
+    margin-top:40px;
+}
+/*TABLEAU*/
+table{
+    text-align:center;
+    margin-top: 40px;
+}
+/*video*/
+.clip{
+    margin-top: 20px;
+}
+.clip2{
+    margin-top: 20px;
+}
+.clip3{
+    margin-top: 20px;
+}
+.clip4{
+    margin-top: 20px;
+}
