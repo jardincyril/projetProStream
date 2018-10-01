@@ -12,7 +12,7 @@
             <div class="nav-wrapper">
                 <ul id="nav-fixed" class="left hide-on-med-and-down">
                     <li><a href="loki.php" id="navMargin">LokiTheknigh</a></li>
-                    <li><a href="index.php" id="navMargin">Devil-Boy</a></li>
+                    <li><a href="devil.php" id="navMargin">Devil-Boy</a></li>
                     <li><a href="video.php" id="navMargin">Video</a></li>
                     <li><a href="forum.php" id="navMargin">Forums</a></li>
                     <!-- Dropdown Trigger -->
@@ -33,7 +33,6 @@
             <div class="parallax"><img src="assets/img/kitsune.jpg" /></div>
         </div>
         <p>
-
 
         </p>
         <div class="parallax-container">

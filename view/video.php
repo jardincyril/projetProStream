@@ -11,7 +11,7 @@
         <title>video</title>
     </head>
     <body>
-        <?php include 'controller/navs.php'; ?>
+        <?php include 'view/navs.php'; ?>
         <!--debut du container video-->
         <div class="container-fluid">
             <div class="row">
@@ -19,6 +19,8 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/temps fort de devilboy60_18-03-26_17-57-33.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-12 paragraphe">
                     <p>
                         zertfgyuhjikolm
                         zertfgyuhjikolm
@@ -31,6 +33,8 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/temps fort de devilboy60_18-03-26_17-57-33.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-12 paragraphe">
                     <p>
                         zertfgyuhjikolm
                         zertfgyuhjikolm
@@ -43,6 +47,8 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/temps fort de devilboy60_18-03-26_17-57-33.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-12 paragraphe">
                     <p>
                         zertfgyuhjikolm
                         zertfgyuhjikolm
@@ -53,8 +59,10 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-xs-12 clip4">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/temps fort de devilboy60_18-03-26_17-57-33.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Bsah4_lruPM?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>></iframe>
                     </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-12 paragraphe">
                     <p>
                         zertfgyuhjikolm
                         zertfgyuhjikolm
@@ -66,5 +74,5 @@
             </div>
         </div>
     </body>
-        <?php include 'controller/footer.php'; ?>
+    <?php include 'view/footer.php'; ?>
 </html>

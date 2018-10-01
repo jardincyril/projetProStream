@@ -18,6 +18,9 @@ a{
 body{
   background:#322447;
 }
+.fond{
+    background:#232e4f;
+}
 /*espace connection*/
 #marginInscript{
   margin-left:20px;
@@ -51,11 +54,7 @@ table{
 .clip4{
     margin-top: 20px;
 }
-.foot{
-    height: 150px;
-    width: 100%;
-    background: black;
+#foot{
     margin-top: 20px;
     color: white;
-    
 }
