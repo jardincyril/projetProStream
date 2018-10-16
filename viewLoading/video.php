@@ -1,24 +1,24 @@
 <!--debut du container video-->
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-3 col-md-3 col-xs-12 clip">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YdZeOnBCk1M" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="col s12 m3 l3 clip">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YdZeOnBCk1M" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-xs-12 clip2">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E-omxW4AILI" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="col s12 m3 l3 clip2">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/E-omxW4AILI" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-xs-12 clip3">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/temps fort de devilboy60_18-03-26_17-57-33.mp4" allow=" encrypted-media" allowfullscreen></iframe>
+        <div class="col s12 m3 l3 clip3">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Bsah4_lruPM?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-xs-12 clip4">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/temps fort de devilboy60_18-06-07_21-24-43 - Copie.mp4" allow=" encrypted-media" allowfullscreen></iframe>
+        <div class="col s12 m3 l3 clip4">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LlAzoaudL9w" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>

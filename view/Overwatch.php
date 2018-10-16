@@ -2,51 +2,51 @@
 <html lang="fr" dir="ltr">
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/over.css">
-        <script src="assets/js/script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link rel="stylesheet" href="../assets/css/over.css">
         <title>OverWatch</title>
     </head>
     <body>
-        <?php include 'controller/navs.php'; ?>
-                <!--debut du container video-->
+        <?php include '../viewLoading/navMaterialize.php'; ?>
+        <!--debut du container video-->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-xs-12 clip">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/temps fort de devilboy60_18-03-26_17-57-33.mp4" allow="autopausse; encrypted-media" allowfullscreen></iframe>
+                <div class="col s12 m4 l4  clip">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LlAzoaudL9w" frameborder="0" allow="autopausse; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-12 clip2">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/temps fort de devilboy60_18-06-07_21-24-43 - Copie.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="col s12 m4 l4  clip2">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LlAzoaudL9w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-12 clip3">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/A dieu lucio_.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="col s12 m4 l4  clip3">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LlAzoaudL9w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-12 clip4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/Overwatch_ Origins Edition_20180314184144.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="col s12 m4 l4  clip4">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LlAzoaudL9w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-12 clip4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/Overwatch_ Origins Edition_20180314184231.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="col s12 m4 l4  clip4">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LlAzoaudL9w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-12 clip4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="Overwatch_ Origins Edition/Temps fort de devil-boy60_.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="col s12 m4 l4 clip4">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LlAzoaudL9w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="../assets/js/script.js"></script>
     </body>
-        <?php include 'controller/footer.php'; ?>
+    <?php include '../viewLoading/footer.php'; ?>
 </html>

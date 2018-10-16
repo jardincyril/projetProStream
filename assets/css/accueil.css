@@ -1,0 +1,14 @@
+/*navbar*/
+.nav-wrapper{
+    background: #343A40;
+}
+#navMargin{
+    margin-left:30px;
+}
+a{
+    font-size: 20px;
+}
+/*footer*/
+.page-footer{
+    background: #343A40;
+}

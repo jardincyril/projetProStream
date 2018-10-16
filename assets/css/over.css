@@ -1,11 +1,14 @@
 /* ancre de la nav et margin des ancre*/
+.nav-wrapper{
+    background: #343A40;
+}
 a{
     color: black;
     font-size: 20px;
     text-align: center;
 }
 #navMargin{
-    margin-left:20px;
+    margin-left:30px;
 }
 /*couleur du corps de la page*/
 body{
@@ -43,4 +46,8 @@ table{
 }
 .clip4{
     margin-top: 20px;
+}
+/*footer*/
+.page-footer{
+    background: #343A40;
 }

@@ -1,40 +1,40 @@
 /*banniere*/
 .banniere{
-  text-align: center;
-  background-image:url(https://sen.flam.me/forum/uploads/monthly_2016_05/overwatch_banniere_001.jpg.cb7dfc767670aa931dafafd9556b5b81.jpg.1a3b5cc8137ec55d4ffdfab62931998e.jpg);
-  height: 452px;
-  background-position: center;
-  background-size: cover;
+    text-align: center;
+    background-image:url(https://sen.flam.me/forum/uploads/monthly_2016_05/overwatch_banniere_001.jpg.cb7dfc767670aa931dafafd9556b5b81.jpg.1a3b5cc8137ec55d4ffdfab62931998e.jpg);
+    height: 452px;
+    background-position: center;
+    background-size: cover;
 }
 /* ancre de la nav et margin des ancre*/
+.nav-wrapper{
+    background: #343A40;
+}
 a{
-  color: black;
-  font-size: 20px;
+    color: black;
+    font-size: 20px;
 }
 #navMargin{
-  margin-left:20px;
+    margin-left:30px;
 }
 /*couleur du corps de la page*/
 body{
-  background:#322447;
+    background:#322447;
 }
 .fond{
     background:#232e4f;
 }
 /*espace connection*/
 #marginInscript{
-  margin-left:20px;
+    margin-left:20px;
 }
 /*accordion*/
 li{
-  color: white;
+    color: white;
 }
 /*chat et le stream*/
 #streamChat{
     margin-top: 40px;
-}
-.chat{
-    margin-top:40px;
 }
 /*TABLEAU*/
 table{
@@ -54,7 +54,7 @@ table{
 .clip4{
     margin-top: 20px;
 }
-#foot{
-    margin-top: 20px;
-    color: white;
+/*le footer */
+.page-footer{
+    background: #343A40;
 }

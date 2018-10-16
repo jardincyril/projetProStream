@@ -1,37 +1,31 @@
-<footer id="foot" class="page-footer font-small bg-dark pt-4 fixed">
-    <div class="container-fluid text-center text-md-left">
-      <div class="row">
-        <hr class="clearfix w-100 d-md-none pb-3">
-        <div class="col-md-3 mb-md-0 mb-3">
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-md-0 mb-3">
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-            </ul>
-          </div>
-        <div class="col-md-3 mb-md-0 mb-3">
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-            </ul>
-          </div>
-        <div class="col-md-3 mb-md-0 mb-3">
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-            </ul>
-          </div>
-      </div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l3 s12">
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Bonjour</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Comment allez vous</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">vous faite quoi</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Aurevoir</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="footer-copyright text-center py-3">
+    <div class="footer-copyright">
+        <div class="container">
+            © 2014 Copyright
+        </div>
     </div>
-  </footer>
+</footer>
