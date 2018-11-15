@@ -1,6 +1,7 @@
 <?php
 session_start();
 include 'configuration.php';
+include 'controller/ajoutVideoCtrl.php';
 $title = 'ajouter une vidéo';
 include 'viewLoading/header.php';
 ?>
@@ -9,43 +10,48 @@ include 'viewLoading/header.php';
     <main>
         <div class="row">
             <div class="form offset-m3 col s12 m6">
-                <form class="col s12" action="ajout-video.php" method="POST">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <label id="labForm" for="video">Vidéo</label>
-                            <input name="video" id="video" type="text" class="video">
+                <?php if (isset($_POST['submit']) && (count($formError) === 0)) { ?>
+                    <p class="paragraphe">la video a bien etait enregistre.</p>
+                <?php } else { ?>
+                    <form class="col s12" action="#" method="POST" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="file-field input-field col s12">
+                                <div class="btn">
+                                    <span>File</span>
+                                    <input type="file"/>
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input name="video" id="video" class="file-path validate" type="text"/>
+                                    <?php if (isset($formError['video'])) { ?>
+                                        <p id="formPara" class="text-danger"><?= $formError['video']; ?></p>
+                                    <?php } ?>
+                                </div>
+                            </div>
                         </div>
-                        <div class="input-field col s6">
-                            <label id="labForm" for="title">titre de la vidéo</label>
-                            <input name="title" id="title" type="text" class="title">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <label id="labForm" for="title">titre de la vidéo</label>
+                                <input name="title" id="title" type="text" class="title"/>
+                                <?php if (isset($formError['title'])) { ?>
+                                    <p id="formPara" class="text-danger"><?= $formError['title']; ?></p>
+                                <?php } ?>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <label id="labForm" for="description">description</label>
-                            <input name="description" id="description" type="text" class="description">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <label id="labForm" for="description">description</label>
+                                <textarea name="description" id="description" class="materialize-textarea"></textarea>
+                                <?php if (isset($formError['description'])) { ?>
+                                    <p id="formPara" class="text-danger"><?= $formError['description']; ?></p>
+                                <?php } ?>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <label id="labForm" for="datepicker">la date</label>
-                            <input name="datepicker" id="datepicker" type="text" class="datepicker">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <label id="labForm" for="hourpicker">l'heure</label>
-                            <input name="hourpicker" id="hourpicker" type="text" class="hourpicker">
-                        </div>
-                    </div>
-                    <input name="submit" type="submit" value="creer">
-                </form>
-            </div>
+                        <input name="submit" type="submit" value="creer">
+                    </form>
+                </div>
+            <?php } ?>
         </div>
     </main>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <?php include 'viewLoading/footer.php'; ?>
 </body>
-<?php include 'viewLoading/footer.php'; ?>
 </html>

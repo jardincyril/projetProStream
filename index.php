@@ -85,8 +85,12 @@ include 'viewLoading/header.php';
                                 <p></p>
                             </div>
                             <div class="card-action">
+                                <?php if (!isset($_SESSION['isConnect'])) { ?>
                                 <a href="inscription.php">inscription</a>
-                                <a href="connection.php">connection</a>
+                                <a href="connection.php">connexion</a>
+                                <?php } else { ?>
+                                <a href="viewer.php?id=<?= $_SESSION['id'] ?>" id="navMargin">mon profil</a>
+                                <?php } ?>
                             </div>
                         </div>
                     </div>
@@ -98,9 +102,6 @@ include 'viewLoading/header.php';
                 </div>
             </div>
         </main>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-        <script src="assets/js/script.js"></script>
         <?php include 'viewLoading/footer.php'; ?>
     </body>
 </html>

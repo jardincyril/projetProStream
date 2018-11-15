@@ -4,7 +4,7 @@
             <table class="striped bordered">
                 <thead>
                     <tr>
-                        <th colspan="5" class="text">Liste De Jeux</th>
+                        <th colspan="5" class="text">Liste Des Jeux</th>
                     </tr>
                 </thead>
                 <tbody>

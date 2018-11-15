@@ -31,7 +31,7 @@ include 'viewLoading/header.php';
             </div>
             <div class="col s12 m4 l4  clip4">
                 <video class="responsive-video" controls>
-                    <source src="Overwatch/Mccree_.mp4" type="video/mp4">
+                    <source src="Overwatch/Mccree.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="col s12 m4 l4 clip4">
@@ -41,9 +41,6 @@ include 'viewLoading/header.php';
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <?php include 'viewLoading/footer.php'; ?>
 </body>
-<?php include 'viewLoading/footer.php'; ?>
 </html>
